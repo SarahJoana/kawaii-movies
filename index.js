@@ -19,7 +19,7 @@ function cardMovie(movie) {
                             style="text-overflow: ellipsis; height: 200px; overflow: hidden;">
                             ${movie.overview}
                         </p>
-                        <a href="/filme/?id=${movie.id}" class="btn btn-primary">Ver mais</a>
+                        <a href="filme/?id=${movie.id}" class="btn btn-primary">Ver mais</a>
                     </div>
                 </div>
             </div>`;
